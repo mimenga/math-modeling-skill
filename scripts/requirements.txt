@@ -1,0 +1,20 @@
+# 数模竞赛代码模板依赖（必需）
+# 安装：pip install -r requirements.txt
+#
+# 说明：08_图论.py 需要 networkx；09_数据处理与EDA.py 与 10_可视化模板.py 需要 seaborn；
+# templates/make_word_template.py 需要 python-docx。
+# 早期版本的说明漏写了这几个库，导致对应脚本直接 ModuleNotFoundError。
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+statsmodels
+seaborn
+networkx
+python-docx
+openpyxl        # pandas 读写 xlsx 必需（国赛附件几乎全是 xlsx）
+
+# ---- 可选（按需单独安装，不在默认安装内）----
+# pulp        # 02 线性与整数规划的 PuLP 写法
+# xgboost     # 03 回归与分类中的 XGBoost
